@@ -1,3 +1,9 @@
 h1 {
   color: red;
+  font-family: "League Spartan", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-style: italic;
 }
