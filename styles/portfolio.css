@@ -1,8 +1,8 @@
 :root {
-  --main-color: #f3cba5;
-  --secondary-color: #975a5e;
-  --accent-color: #453953;
-  --backround-color: #25161b;
+  --main-color: #f2f2f2;
+  --secondary-color: #393e46;
+  --accent-color: #f96d00;
+  --backround-color: #222831;
   --main-font: "League Spartan", sans-serif;
   --accent-font: "Open Sans", sans-serif;
 }
@@ -21,6 +21,10 @@ h4 {
 
 h1 {
   font-size: 5rem;
+}
+
+h3 {
+  color: var(--accent-color);
 }
 p {
   font-family: var(--accent-font);
