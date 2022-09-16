@@ -26,6 +26,7 @@ h1 {
 
 h3 {
   color: var(--accent-color);
+  margin-bottom: 0px;
 }
 p {
   font-family: var(--accent-font);
@@ -46,14 +47,14 @@ header {
   margin-bottom: 2.5rem;
 }
 
-.contact-button {
+.button {
   padding: 1rem;
   background-color: var(--accent-color);
   color: var(--background-color);
   border-radius: 0.5rem;
 }
 
-.contact-button:hover {
+.button:hover {
   text-decoration: none;
   color: var(--main-color);
 }
@@ -74,4 +75,10 @@ h2 {
 
 .section-paragraphs {
   text-align: center;
+}
+
+main .button {
+  display: block;
+  text-align: center;
+  margin: 0 180px;
 }
