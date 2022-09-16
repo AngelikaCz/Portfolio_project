@@ -9,6 +9,7 @@
 
 body {
   background-color: var(--backround-color);
+  font-family: var(--main-font);
 }
 
 h1,
@@ -30,9 +31,47 @@ p {
   font-family: var(--accent-font);
   font-style: italic;
   color: var(--main-color);
+  margin-bottom: 2rem;
+}
+
+.name {
+  margin-top: 10rem;
+}
+
+.coding_photo {
+  margin-top: 9rem;
 }
 
 header {
-  margin-top: 15rem;
-  margin-left: 3rem;
+  margin-bottom: 2.5rem;
+}
+
+.contact-button {
+  padding: 1rem;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+  border-radius: 0.5rem;
+}
+
+.contact-button:hover {
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.main-headline {
+  text-align: center;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+.projects-section {
+  margin-top: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.section-paragraphs {
+  text-align: center;
 }
