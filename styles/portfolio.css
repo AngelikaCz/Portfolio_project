@@ -69,7 +69,7 @@ header {
   margin-top: 1.5rem;
 }
 
-h2 {
+main h2 {
   text-align: center;
 }
 
@@ -81,4 +81,21 @@ main .button {
   display: block;
   text-align: center;
   margin: 0 180px;
+}
+
+.portfolio-section {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 46px;
+  }
+}
+
+@media (max-width: 576px) {
+  main .button {
+    margin: 40px;
+  }
 }
