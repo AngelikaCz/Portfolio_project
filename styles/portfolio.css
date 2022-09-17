@@ -15,7 +15,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
   font-family: var(--main-font);
   color: var(--main-color);
 }
@@ -35,7 +37,7 @@ p {
   margin-bottom: 2rem;
 }
 
-.name {
+.header {
   margin-top: 10rem;
 }
 
@@ -97,6 +99,10 @@ main .about-link {
 
 hr {
   background-color: var(--main-color);
+}
+
+main h5 {
+  opacity: 0.5;
 }
 
 @media (max-width: 768px) {
