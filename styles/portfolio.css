@@ -39,7 +39,8 @@ p {
   margin-top: 10rem;
 }
 
-.coding_photo {
+.coding_photo,
+.person-photo {
   margin-top: 9rem;
 }
 
@@ -88,6 +89,16 @@ main .button {
   padding: 1rem;
 }
 
+main .about-link {
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+
+hr {
+  background-color: var(--main-color);
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 46px;
@@ -97,5 +108,9 @@ main .button {
 @media (max-width: 576px) {
   main .button {
     margin: 40px;
+  }
+
+  .person-photo {
+    display: none;
   }
 }
