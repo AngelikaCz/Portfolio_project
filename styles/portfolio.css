@@ -38,7 +38,7 @@ p {
 }
 
 .header {
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 
 .coding_photo,
@@ -116,6 +116,39 @@ main h5 {
 .contact-links:hover {
   text-decoration: none;
   color: var(--accent-color);
+}
+
+nav {
+  background-color: var(--secondary-color);
+}
+nav li a {
+  color: var(--main-color);
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+  line-height: 40px;
+}
+nav ul {
+  margin: 0;
+}
+
+nav li a:hover,
+nav li a.active {
+  text-decoration: none;
+  color: var(--accent-color);
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 25px;
+}
+.logo:hover {
+  text-decoration: none;
+  color: var(--main-color);
 }
 
 @media (max-width: 768px) {
