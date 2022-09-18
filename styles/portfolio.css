@@ -23,7 +23,7 @@ h6 {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h3 {
@@ -103,6 +103,11 @@ hr {
 
 main h5 {
   opacity: 0.5;
+}
+
+.icons {
+  color: white;
+  line-height: 50px;
 }
 
 @media (max-width: 768px) {
