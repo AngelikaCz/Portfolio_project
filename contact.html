@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Angelika Czerwińska is a future front-end developer based in Warsaw. She is learning with SheCodes and on this webiste her main projects are showcased. "
+    />
     <script
       src="https://kit.fontawesome.com/cb97f1219f.js"
       crossorigin="anonymous"
@@ -35,9 +39,29 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
-    <title>Angelika's portfolio</title>
+    <title>Angelika Czerwińska - front-end developer</title>
   </head>
   <body>
+    <div class="sticky-top">
+      <nav class="d-flex justify-content-between p-2">
+        <a href="index.html" class="ml-5" title="Homepage"
+          ><img
+            src="pictures/Logo_Angelika.PNG"
+            alt="logo"
+            class="logo rounded-circle"
+        /></a>
+        <ul class="mr-5">
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Page">About</a></li>
+          <li><a href="work.html" title="Work Page">Work</a></li>
+          <li>
+            <a href="contact.html" class="active" title="Contact Page"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
     <header>
       <div class="container">
         <div class="row">
@@ -54,7 +78,10 @@
           <div class="col-4 text-center">
             <i class="fa-regular fa-envelope icons fa-3x mb-3"></i>
             <h5>Email</h5>
-            <a href="mailto:angelikaczerwinska9@gmail.com" class="contact-links"
+            <a
+              href="mailto:angelikaczerwinska9@gmail.com"
+              class="contact-links"
+              title="E-mail"
               >angelikaczerwinska9@gmail.com</a
             >
           </div>
@@ -64,13 +91,17 @@
             <a
               href="https://www.linkedin.com/in/angelika-czerwinska/?originalSubdomain=pl"
               class="contact-links"
+              title="LinkedIn"
               >Check my profile</a
             >
           </div>
           <div class="col-4 text-center">
             <i class="fa-brands fa-github icons fa-3x mb-3"></i>
             <h5>GitHub</h5>
-            <a href="https://github.com/AngelikaCz" class="contact-links"
+            <a
+              href="https://github.com/AngelikaCz"
+              class="contact-links"
+              title="GitHub"
               >Check projects</a
             >
           </div>

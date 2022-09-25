@@ -37,13 +37,17 @@ p {
   margin-bottom: 2rem;
 }
 
+.work-inquiry p {
+  margin-bottom: 0;
+}
+
 .header {
   margin-top: 4rem;
 }
 
 .coding_photo,
 .person-photo {
-  margin-top: 9rem;
+  margin-top: 4rem;
 }
 
 header {
@@ -120,11 +124,13 @@ main h5 {
   color: var(--main-color);
 }
 
+.link,
 .contact-links {
   color: var(--main-color);
 }
 
-.contact-links:hover {
+.contact-links:hover,
+.link:hover {
   text-decoration: none;
   color: var(--accent-color);
 }
@@ -153,10 +159,9 @@ nav li a.active {
 }
 
 .logo {
-  text-decoration: none;
-  color: var(--main-color);
-  font-size: 25px;
+  height: 40px;
 }
+
 .logo:hover {
   text-decoration: none;
   color: var(--main-color);
